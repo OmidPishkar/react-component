@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Hammersmith';
+  src: url(./fonts/Hammersmith/HammersmithOne-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'BenchNine';
+  src: url('./fonts/BenchNine/BenchNine-Bold.ttf'),
+      url(./fonts/BenchNine/BenchNine-Light.ttf),
+      url(./fonts/BenchNine/BenchNine-Regular.ttf);
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.hammer-font{
+  font-family: 'Hammersmith', sans-serif;
+}
+
+.bench-nine-font{
+  font-family: 'BenchNine', sans-serif;
+}
+
